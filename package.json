@@ -1,0 +1,37 @@
+{
+  "name": "exa-prompt",
+  "version": "1.0.1",
+  "description": "interactive command line for frontend tooling",
+  "main": "src/index.js",
+  "bin": {
+    "exa": "bin/exa-cli"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabriciolak/exa-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "exa",
+    "exa-cli",
+    "prompt",
+    "frontend",
+    "tooling",
+    "frontend tooling"
+  ],
+  "author": "Fabricio (lak)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabriciolak/exa-cli/issues"
+  },
+  "homepage": "https://github.com/fabriciolak/exa-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^10.1.0",
+    "fs-jetpack": "^4.3.1",
+    "inquirer": "^8.0.0"
+  }
+}
